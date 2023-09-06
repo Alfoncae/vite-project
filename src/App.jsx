@@ -77,31 +77,31 @@ function App() {
           <div className='text-2xl mb-3'>
             Mail project
           </div>
-          <Card darkMode={darkMode}video='https://github.com/Alfoncae/vite-project/raw/main/videos/commerce.mov'></Card>
+          <Card darkMode={darkMode}video='https://github.com/Alfoncae/vite-project/raw/main/videos/mail.mov'></Card>
         </div>
         <div className='text-center'>
           <div className='text-2xl mb-3'>
             Commerce project
           </div>
-          <Card darkMode={darkMode}video={mailUrl}></Card>
+          <Card darkMode={darkMode}video='https://github.com/Alfoncae/vite-project/raw/main/videos/commerce.mov'></Card>
         </div>
         <div className='text-center'>
           <div className='text-2xl mb-3'>
             Money Manager project
           </div>
-          <Card darkMode={darkMode}video={commerceUrl}></Card>
+          <Card darkMode={darkMode}video='https://github.com/Alfoncae/vite-project/raw/main/videos/manager.mp4'></Card>
         </div>
         <div className='text-center'>
           <div className='text-2xl mb-3'>
             Network project
           </div>
-          <Card darkMode={darkMode}video={networkUrl}></Card>
+          <Card darkMode={darkMode}video='https://github.com/Alfoncae/vite-project/raw/main/videos/network.mp4'></Card>
         </div>
         <div className='text-center'>
           <div className='text-2xl mb-3'>
             Todo list project
           </div>
-          <Card darkMode={darkMode}video={tasksUrl}></Card>
+          <Card darkMode={darkMode}video='https://github.com/Alfoncae/vite-project/raw/main/videos/tasks.mp4'></Card>
         </div>
         <div className="p-6 flex-col sm:w-2/3">
             <div className='text-center text-4xl my-10'>
