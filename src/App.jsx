@@ -6,6 +6,12 @@ import Card from './components/Card'
 import ContactForm from './components/ContactForm'
 
 
+import managerUrl from '../videos/manager.mp4?url'
+import mailUrl from '../videos/mail.mov?url'
+import commerceUrl from '../videos/commerce.mov?url'
+import networkUrl from '../videos/network.mp4?url'
+import tasksUrl from '../videos/tasks.mp4?url'
+
 function App() {
 
   const [darkMode, setDarkMode] = React.useState(true)
@@ -70,31 +76,31 @@ function App() {
           <div className='text-2xl mb-3'>
             Mail project
           </div>
-          <Card darkMode={darkMode}video='videos/mail.mov'></Card>
+          <Card darkMode={darkMode}video={managerUrl}></Card>
         </div>
         <div className='text-center'>
           <div className='text-2xl mb-3'>
             Commerce project
           </div>
-          <Card darkMode={darkMode}video='videos/commerce.mov'></Card>
+          <Card darkMode={darkMode}video={mailUrl}></Card>
         </div>
         <div className='text-center'>
           <div className='text-2xl mb-3'>
             Money Manager project
           </div>
-          <Card darkMode={darkMode}video='videos/manager.mp4'></Card>
+          <Card darkMode={darkMode}video={commerceUrl}></Card>
         </div>
         <div className='text-center'>
           <div className='text-2xl mb-3'>
             Network project
           </div>
-          <Card darkMode={darkMode}video='videos/network.mp4'></Card>
+          <Card darkMode={darkMode}video={networkUrl}></Card>
         </div>
         <div className='text-center'>
           <div className='text-2xl mb-3'>
             Todo list project
           </div>
-          <Card darkMode={darkMode}video='videos/tasks.mp4'></Card>
+          <Card darkMode={darkMode}video={tasksUrl}></Card>
         </div>
         <div className="p-6 flex-col sm:w-2/3">
             <div className='text-center text-4xl my-10'>
