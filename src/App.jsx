@@ -7,10 +7,11 @@ import ContactForm from './components/ContactForm'
 
 
 import managerUrl from '../videos/manager.mp4?url'
-import mailUrl from '../videos/mail.mov?url'
+import mailUrl from '../videos/mail.mov?url' 
 import commerceUrl from '../videos/commerce.mov?url'
 import networkUrl from '../videos/network.mp4?url'
 import tasksUrl from '../videos/tasks.mp4?url'
+
 
 function App() {
 
@@ -76,7 +77,7 @@ function App() {
           <div className='text-2xl mb-3'>
             Mail project
           </div>
-          <Card darkMode={darkMode}video={managerUrl}></Card>
+          <Card darkMode={darkMode}video='https://github.com/Alfoncae/vite-project/raw/main/videos/commerce.mov'></Card>
         </div>
         <div className='text-center'>
           <div className='text-2xl mb-3'>
