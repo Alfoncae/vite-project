@@ -1,4 +1,4 @@
-import './App.css'
+import './styles.css'
 import React from 'react'
 import { BiMoon } from 'react-icons/bi'
 import { AiFillGithub } from '../node_modules/react-icons/ai'
